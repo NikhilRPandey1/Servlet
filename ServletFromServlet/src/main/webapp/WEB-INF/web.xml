@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  	<servlet-name>servletfromServlet</servlet-name>
+  	<servlet-class>com.first.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servletfromServlet</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>servletSqr</servlet-name>
+  	<servlet-class>com.first.SquareServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servletSqr</servlet-name>
+  	<url-pattern>/square</url-pattern>
+  </servlet-mapping>
+</web-app>
